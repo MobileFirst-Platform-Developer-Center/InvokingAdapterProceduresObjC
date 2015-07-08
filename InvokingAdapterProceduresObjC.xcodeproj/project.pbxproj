@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		197FCFE81A233C4300DCF5C6 /* worklight.plist in Resources */ = {isa = PBXBuildFile; fileRef = 197FCFE71A233C4300DCF5C6 /* worklight.plist */; };
+		19983C0C1AF8B1010005363F /* WorklightAPI in Resources */ = {isa = PBXBuildFile; fileRef = 19983C0B1AF8B1010005363F /* WorklightAPI */; };
+		19983C0E1AF8B12A0005363F /* IBMMobileFirstPlatformFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19983C0D1AF8B12A0005363F /* IBMMobileFirstPlatformFoundation.framework */; };
+		19983C0F1AF8B12C0005363F /* sqlcipher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E27BD4DC192A1B4A004B84BE /* sqlcipher.framework */; };
+		E27BD489192A17B2004B84BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E27BD488192A17B2004B84BE /* Foundation.framework */; };
+		E27BD48B192A17B2004B84BE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E27BD48A192A17B2004B84BE /* CoreGraphics.framework */; };
+		E27BD48D192A17B2004B84BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E27BD48C192A17B2004B84BE /* UIKit.framework */; };
+		E27BD493192A17B2004B84BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E27BD491192A17B2004B84BE /* InfoPlist.strings */; };
+		E27BD495192A17B2004B84BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E27BD494192A17B2004B84BE /* main.m */; };
+		E27BD499192A17B2004B84BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E27BD498192A17B2004B84BE /* AppDelegate.m */; };
+		E27BD49F192A17B2004B84BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E27BD49E192A17B2004B84BE /* ViewController.m */; };
+		E27BD4A1192A17B2004B84BE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E27BD4A0192A17B2004B84BE /* Images.xcassets */; };
+		E27BD4C2192A1827004B84BE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E27BD4C1192A1827004B84BE /* SystemConfiguration.framework */; };
+		E27BD4C4192A1838004B84BE /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E27BD4C3192A1838004B84BE /* MobileCoreServices.framework */; };
+		E27BD4C6192A1846004B84BE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E27BD4C5192A1846004B84BE /* CoreData.framework */; };
+		E27BD4C8192A1853004B84BE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E27BD4C7192A1853004B84BE /* CoreLocation.framework */; };
+		E27BD4CA192A1864004B84BE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E27BD4C9192A1864004B84BE /* Security.framework */; };
+		E27BD4CC192A1871004B84BE /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E27BD4CB192A1871004B84BE /* libz.dylib */; };
+		E27BD4CE192A1888004B84BE /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E27BD4CD192A1888004B84BE /* libc++.dylib */; };
+		E27BD4D0192A189B004B84BE /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E27BD4CF192A189B004B84BE /* libstdc++.dylib */; };
+		E27BD4D8192A1AB3004B84BE /* MyConnectListener.m in Sources */ = {isa = PBXBuildFile; fileRef = E27BD4D7192A1AB3004B84BE /* MyConnectListener.m */; };
+		E27BD4E3192A2E3D004B84BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E27BD4E2192A2E3D004B84BE /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		197FCFE71A233C4300DCF5C6 /* worklight.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = worklight.plist; sourceTree = "<group>"; };
+		19983C0B1AF8B1010005363F /* WorklightAPI */ = {isa = PBXFileReference; lastKnownFileType = folder; path = WorklightAPI; sourceTree = "<group>"; };
+		19983C0D1AF8B12A0005363F /* IBMMobileFirstPlatformFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IBMMobileFirstPlatformFoundation.framework; path = WorklightAPI/Frameworks/IBMMobileFirstPlatformFoundation.framework; sourceTree = "<group>"; };
+		E27BD485192A17B2004B84BE /* InvokingAdapterProceduresObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InvokingAdapterProceduresObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E27BD488192A17B2004B84BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E27BD48A192A17B2004B84BE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E27BD48C192A17B2004B84BE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E27BD490192A17B2004B84BE /* InvokingAdapterProceduresObjC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InvokingAdapterProceduresObjC-Info.plist"; sourceTree = "<group>"; };
+		E27BD492192A17B2004B84BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E27BD494192A17B2004B84BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E27BD496192A17B2004B84BE /* InvokingAdapterProceduresObjC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InvokingAdapterProceduresObjC-Prefix.pch"; sourceTree = "<group>"; };
+		E27BD497192A17B2004B84BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E27BD498192A17B2004B84BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E27BD49D192A17B2004B84BE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E27BD49E192A17B2004B84BE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E27BD4A0192A17B2004B84BE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E27BD4A7192A17B2004B84BE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E27BD4C1192A1827004B84BE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E27BD4C3192A1838004B84BE /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		E27BD4C5192A1846004B84BE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E27BD4C7192A1853004B84BE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E27BD4C9192A1864004B84BE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		E27BD4CB192A1871004B84BE /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		E27BD4CD192A1888004B84BE /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		E27BD4CF192A189B004B84BE /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		E27BD4D6192A1AB3004B84BE /* MyConnectListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyConnectListener.h; sourceTree = "<group>"; };
+		E27BD4D7192A1AB3004B84BE /* MyConnectListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyConnectListener.m; sourceTree = "<group>"; };
+		E27BD4DC192A1B4A004B84BE /* sqlcipher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = sqlcipher.framework; path = WorklightAPI/Frameworks/sqlcipher.framework; sourceTree = "<group>"; };
+		E27BD4DE192A1B62004B84BE /* libWorklightStaticLibProjectNative.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libWorklightStaticLibProjectNative.a; path = WorklightAPI/libWorklightStaticLibProjectNative.a; sourceTree = "<group>"; };
+		E27BD4E2192A2E3D004B84BE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E27BD482192A17B2004B84BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19983C0E1AF8B12A0005363F /* IBMMobileFirstPlatformFoundation.framework in Frameworks */,
+				19983C0F1AF8B12C0005363F /* sqlcipher.framework in Frameworks */,
+				E27BD4D0192A189B004B84BE /* libstdc++.dylib in Frameworks */,
+				E27BD4CE192A1888004B84BE /* libc++.dylib in Frameworks */,
+				E27BD4CC192A1871004B84BE /* libz.dylib in Frameworks */,
+				E27BD4CA192A1864004B84BE /* Security.framework in Frameworks */,
+				E27BD4C8192A1853004B84BE /* CoreLocation.framework in Frameworks */,
+				E27BD4C6192A1846004B84BE /* CoreData.framework in Frameworks */,
+				E27BD4C4192A1838004B84BE /* MobileCoreServices.framework in Frameworks */,
+				E27BD4C2192A1827004B84BE /* SystemConfiguration.framework in Frameworks */,
+				E27BD48B192A17B2004B84BE /* CoreGraphics.framework in Frameworks */,
+				E27BD48D192A17B2004B84BE /* UIKit.framework in Frameworks */,
+				E27BD489192A17B2004B84BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		197FCFE61A233C2F00DCF5C6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				197FCFE71A233C4300DCF5C6 /* worklight.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E27BD47C192A17B2004B84BE = {
+			isa = PBXGroup;
+			children = (
+				19983C0B1AF8B1010005363F /* WorklightAPI */,
+				E27BD48E192A17B2004B84BE /* InvokingAdapterProceduresObjC */,
+				E27BD487192A17B2004B84BE /* Frameworks */,
+				E27BD486192A17B2004B84BE /* Products */,
+				197FCFE61A233C2F00DCF5C6 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		E27BD486192A17B2004B84BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E27BD485192A17B2004B84BE /* InvokingAdapterProceduresObjC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E27BD487192A17B2004B84BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19983C0D1AF8B12A0005363F /* IBMMobileFirstPlatformFoundation.framework */,
+				E27BD4DE192A1B62004B84BE /* libWorklightStaticLibProjectNative.a */,
+				E27BD4DC192A1B4A004B84BE /* sqlcipher.framework */,
+				E27BD4CF192A189B004B84BE /* libstdc++.dylib */,
+				E27BD4CD192A1888004B84BE /* libc++.dylib */,
+				E27BD4CB192A1871004B84BE /* libz.dylib */,
+				E27BD4C9192A1864004B84BE /* Security.framework */,
+				E27BD4C7192A1853004B84BE /* CoreLocation.framework */,
+				E27BD4C5192A1846004B84BE /* CoreData.framework */,
+				E27BD4C3192A1838004B84BE /* MobileCoreServices.framework */,
+				E27BD4C1192A1827004B84BE /* SystemConfiguration.framework */,
+				E27BD488192A17B2004B84BE /* Foundation.framework */,
+				E27BD48A192A17B2004B84BE /* CoreGraphics.framework */,
+				E27BD48C192A17B2004B84BE /* UIKit.framework */,
+				E27BD4A7192A17B2004B84BE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E27BD48E192A17B2004B84BE /* InvokingAdapterProceduresObjC */ = {
+			isa = PBXGroup;
+			children = (
+				E27BD4E2192A2E3D004B84BE /* Main.storyboard */,
+				E27BD4D6192A1AB3004B84BE /* MyConnectListener.h */,
+				E27BD4D7192A1AB3004B84BE /* MyConnectListener.m */,
+				E27BD497192A17B2004B84BE /* AppDelegate.h */,
+				E27BD498192A17B2004B84BE /* AppDelegate.m */,
+				E27BD49D192A17B2004B84BE /* ViewController.h */,
+				E27BD49E192A17B2004B84BE /* ViewController.m */,
+				E27BD4A0192A17B2004B84BE /* Images.xcassets */,
+				E27BD48F192A17B2004B84BE /* Supporting Files */,
+			);
+			path = InvokingAdapterProceduresObjC;
+			sourceTree = "<group>";
+		};
+		E27BD48F192A17B2004B84BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E27BD490192A17B2004B84BE /* InvokingAdapterProceduresObjC-Info.plist */,
+				E27BD491192A17B2004B84BE /* InfoPlist.strings */,
+				E27BD494192A17B2004B84BE /* main.m */,
+				E27BD496192A17B2004B84BE /* InvokingAdapterProceduresObjC-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E27BD484192A17B2004B84BE /* InvokingAdapterProceduresObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E27BD4B7192A17B2004B84BE /* Build configuration list for PBXNativeTarget "InvokingAdapterProceduresObjC" */;
+			buildPhases = (
+				E27BD481192A17B2004B84BE /* Sources */,
+				E27BD482192A17B2004B84BE /* Frameworks */,
+				E27BD483192A17B2004B84BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InvokingAdapterProceduresObjC;
+			productName = InvokingAdapterProceduresObjC;
+			productReference = E27BD485192A17B2004B84BE /* InvokingAdapterProceduresObjC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E27BD47D192A17B2004B84BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "IBM Worklight";
+			};
+			buildConfigurationList = E27BD480192A17B2004B84BE /* Build configuration list for PBXProject "InvokingAdapterProceduresObjC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E27BD47C192A17B2004B84BE;
+			productRefGroup = E27BD486192A17B2004B84BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E27BD484192A17B2004B84BE /* InvokingAdapterProceduresObjC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E27BD483192A17B2004B84BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				197FCFE81A233C4300DCF5C6 /* worklight.plist in Resources */,
+				19983C0C1AF8B1010005363F /* WorklightAPI in Resources */,
+				E27BD4E3192A2E3D004B84BE /* Main.storyboard in Resources */,
+				E27BD4A1192A17B2004B84BE /* Images.xcassets in Resources */,
+				E27BD493192A17B2004B84BE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E27BD481192A17B2004B84BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E27BD4D8192A1AB3004B84BE /* MyConnectListener.m in Sources */,
+				E27BD49F192A17B2004B84BE /* ViewController.m in Sources */,
+				E27BD499192A17B2004B84BE /* AppDelegate.m in Sources */,
+				E27BD495192A17B2004B84BE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E27BD491192A17B2004B84BE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E27BD492192A17B2004B84BE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E27BD4B5192A17B2004B84BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E27BD4B6192A17B2004B84BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E27BD4B8192A17B2004B84BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WorklightAPI/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InvokingAdapterProceduresObjC/InvokingAdapterProceduresObjC-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = "InvokingAdapterProceduresObjC/InvokingAdapterProceduresObjC-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WorklightAPI",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E27BD4B9192A17B2004B84BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WorklightAPI/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InvokingAdapterProceduresObjC/InvokingAdapterProceduresObjC-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = "InvokingAdapterProceduresObjC/InvokingAdapterProceduresObjC-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WorklightAPI",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E27BD480192A17B2004B84BE /* Build configuration list for PBXProject "InvokingAdapterProceduresObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E27BD4B5192A17B2004B84BE /* Debug */,
+				E27BD4B6192A17B2004B84BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E27BD4B7192A17B2004B84BE /* Build configuration list for PBXNativeTarget "InvokingAdapterProceduresObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E27BD4B8192A17B2004B84BE /* Debug */,
+				E27BD4B9192A17B2004B84BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E27BD47D192A17B2004B84BE /* Project object */;
+}
