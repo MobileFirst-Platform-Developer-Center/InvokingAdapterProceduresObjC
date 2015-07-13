@@ -1,13 +1,15 @@
 IBM MobileFirst Platform Foundation
 ===
-### Sample Name
+### Invoking adapter procedures in Objective-C
 
 
 ### Usage
-Follow the instructions in the tutorials listed below.
+Follow the instructions in the tutorial(s) listed below.
 
 ### Tutorials
 
+**iOS Objective-C**
+https://developer.ibm.com/mobilefirstplatform/documentation/getting-started-7-1/foundation/server-side-development-category/invoking-adapter-procedures-native-ios-applications/
 
 ### Supported Levels
 IBM MobileFirst Platform Foundation 7.1
