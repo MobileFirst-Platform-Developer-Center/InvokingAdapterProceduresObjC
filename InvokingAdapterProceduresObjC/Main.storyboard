@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vGZ-aP-Nlh">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vGZ-aP-Nlh">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
@@ -19,7 +19,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mml-Px-YLF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-28" y="5"/>
+            <point key="canvasLocation" x="-52.5" y="5.28169014084507"/>
         </scene>
         <!--Invoking Adapter Procedures-->
         <scene sceneID="5">
@@ -34,62 +34,65 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cRs-Ov-vhF">
-                                <rect key="frame" x="118" y="80" width="85" height="30"/>
+                                <rect key="frame" x="101" y="89" width="119" height="51"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <state key="normal" title="Connect">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="widthClass=compact">
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                </variation>
                                 <connections>
                                     <action selector="doConnect:" destination="2" eventType="touchUpInside" id="0xF-ND-eas"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Click the Connect button to initialize" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="yRV-Wp-LL2">
-                                <rect key="frame" x="20" y="162" width="275" height="372"/>
-                                <accessibility key="accessibilityConfiguration">
-                                    <accessibilityTraits key="traits" none="YES" notEnabled="YES"/>
-                                </accessibility>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="372" id="3wr-E4-YKg"/>
-                                    <constraint firstAttribute="width" constant="275" id="seN-an-oce"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fSU-Os-tdd">
-                                <rect key="frame" x="84" y="119" width="153" height="30"/>
+                                <rect key="frame" x="38" y="148" width="245" height="51"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <state key="normal" title="Invoke Procedure">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="widthClass=compact">
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                </variation>
                                 <connections>
                                     <action selector="doInvokeProcedure:" destination="2" eventType="touchUpInside" id="sbv-JH-ksB"/>
                                 </connections>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Click the Connect button to initialize" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="yRV-Wp-LL2">
+                                <rect key="frame" x="16" y="207" width="288" height="341"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" none="YES" notEnabled="YES"/>
+                                </accessibility>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="widthClass=compact">
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                </variation>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="fSU-Os-tdd" firstAttribute="leading" secondItem="3" secondAttribute="leadingMargin" constant="68" id="20j-Tf-zzI"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="fSU-Os-tdd" secondAttribute="trailing" constant="67" id="7wi-eL-EH5"/>
-                            <constraint firstItem="yRV-Wp-LL2" firstAttribute="top" secondItem="fSU-Os-tdd" secondAttribute="bottom" constant="13" id="Fcb-Nh-x3S"/>
-                            <constraint firstItem="fSU-Os-tdd" firstAttribute="top" secondItem="cRs-Ov-vhF" secondAttribute="bottom" constant="9" id="MDH-DB-nYT"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="cRs-Ov-vhF" secondAttribute="trailing" constant="101" id="Zcj-ab-5yx"/>
-                            <constraint firstItem="cRs-Ov-vhF" firstAttribute="leading" secondItem="3" secondAttribute="leadingMargin" constant="102" id="cJ0-TV-BpK"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="yRV-Wp-LL2" secondAttribute="trailing" constant="9" id="d2x-9V-DOZ"/>
-                            <constraint firstItem="yRV-Wp-LL2" firstAttribute="leading" secondItem="3" secondAttribute="leadingMargin" constant="4" id="qsi-TH-M7m"/>
-                            <constraint firstItem="cRs-Ov-vhF" firstAttribute="top" secondItem="GwA-0j-wLy" secondAttribute="bottom" constant="16" id="wMF-2s-X45"/>
+                            <constraint firstItem="fSU-Os-tdd" firstAttribute="top" secondItem="cRs-Ov-vhF" secondAttribute="bottom" constant="8" id="0no-0Z-qDa"/>
+                            <constraint firstItem="cRs-Ov-vhF" firstAttribute="top" secondItem="GwA-0j-wLy" secondAttribute="bottom" constant="25" id="LbX-aa-FYt"/>
+                            <constraint firstItem="yRV-Wp-LL2" firstAttribute="leading" secondItem="3" secondAttribute="leadingMargin" id="Nqi-Rh-Ys3"/>
+                            <constraint firstItem="yRV-Wp-LL2" firstAttribute="trailing" secondItem="3" secondAttribute="trailingMargin" id="O3d-rf-yho"/>
+                            <constraint firstAttribute="centerX" secondItem="yRV-Wp-LL2" secondAttribute="centerX" id="Xog-Af-tF4"/>
+                            <constraint firstItem="yRV-Wp-LL2" firstAttribute="top" secondItem="fSU-Os-tdd" secondAttribute="bottom" constant="8" id="fGt-ca-MKk"/>
+                            <constraint firstAttribute="centerX" secondItem="cRs-Ov-vhF" secondAttribute="centerX" id="fKY-5Y-cDD"/>
+                            <constraint firstItem="9fF-Me-Dn0" firstAttribute="top" secondItem="yRV-Wp-LL2" secondAttribute="bottom" constant="20" id="iGl-qG-15E"/>
+                            <constraint firstAttribute="centerX" secondItem="fSU-Os-tdd" secondAttribute="centerX" id="tg1-RC-lhG"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Invoking Adapter Procedures" id="hm4-3T-83i"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="textView" destination="yRV-Wp-LL2" id="NS1-Fl-Wnz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="509" y="25"/>
+            <point key="canvasLocation" x="954" y="26"/>
         </scene>
     </scenes>
-    <simulatedMetricsContainer key="defaultSimulatedMetrics">
-        <simulatedStatusBarMetrics key="statusBar"/>
-        <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination" type="retina4"/>
-    </simulatedMetricsContainer>
 </document>
