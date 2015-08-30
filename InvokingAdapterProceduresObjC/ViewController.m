@@ -40,10 +40,10 @@
     [self updateView:@"Invoking Procedure..."];
     NSLog(@"Invoking Procedure...");
 
-    NSURL* url = [NSURL URLWithString:@"/adapters/RSSReader/getFeeds"];
+    NSURL* url = [NSURL URLWithString:@"/adapters/RSSReader/getFeed"];
     WLResourceRequest* request = [WLResourceRequest requestWithURL:url method:WLHttpMethodGet];
 
-    [request setQueryParameterValue:@"['technology']" forName:@"params"];
+    [request setQueryParameterValue:@"['MobileFirst_Platform']" forName:@"params"];
 
     [request sendWithCompletionHandler:^(WLResponse *response, NSError *error) {
         NSString* resultText;
